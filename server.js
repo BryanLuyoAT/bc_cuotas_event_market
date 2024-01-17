@@ -93,3 +93,10 @@ await conexionWS();
 //await eventsData();
 
 //console.log(process.env.PORT)
+
+
+/*  
+
+{"command":"get","params":{"source":"betting","what":{"sport":["id","name","alias"],"region":["id","alias","name"],"competition":["id","name"],"game":["id","markets_count","start_ts","is_started","is_blocked","team1_id","team2_id","game_number","text_info","is_stat_available","match_length","type","info","stats","team1_name","team2_name","tv_info","add_info_name","showInfo","live_events","last_event","add_info"],"market":["name","type","id","base","order","group_name","cashout","group_id","col_count","point_sequence","extra_info","express_id","is_new"],"event":["id","order","type_1","name","price","base","ew_allowed"]},"where":{"game":{"id": {"@in":[23798055,23900762,23900760,23900761,23900772,23900784,23901774,23900742,23900780,23900753,23900774,23798055,23868153,23868154,23889606]}},"sport":{"alias":"Soccer"}},"subscribe":true},"rid":"subscribeCmd856684182010134"}
+
+*/
